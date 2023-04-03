@@ -1,0 +1,24 @@
+a)
+  INPUT P
+  INPUT R
+  INPUT T
+  A = P*(1 + (R/100)*T)
+  PRINT A
+
+b)
+  INPUT P
+  INPUT R
+  INPUT n
+  INPUT T
+  A = P*(1 + (R/n)^n/T)
+  PRINT A
+
+C)
+  INPUT PMT
+  INPUT R
+  INPUT n
+  INPUT T
+  A = PMT*((1 + (R/n)^n/T)-1 )/(R/n)
+  PRINT A
+  
+  
